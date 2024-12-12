@@ -1,0 +1,186 @@
+
+body{
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(230, 239, 190);
+}
+.glavni{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  padding: 0px 50px;
+  margin: 50px 30px;
+  min-height: 50vh;
+}
+#startgame{
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgb(51, 52, 51);
+  border-radius: 50px;
+  background-color: rgb(179, 224, 228);
+  color: rgb(51, 52, 51);
+}
+#startgameButton{
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(230, 239, 190);
+  color: rgb(30, 100, 0);
+  font-size: larger;
+  min-width: 80px;
+  min-height: 40px;
+  margin: 20px 0px;
+}
+#startgameButton:hover{
+  background-color: rgb(216, 234, 133);
+}
+#pocetna{
+  border: 3px solid rgb(51, 52, 51);
+  border-radius: 50px;
+  background-color: rgb(179, 224, 228);
+  color: rgb(51, 52, 51);
+  min-width: 300px;
+}
+#ImePotvrdaButton{
+  background-color: rgb(230, 239, 190);
+  color: rgb(0, 0, 0);
+  font-size: larger;
+  min-width: 80px;
+  min-height: 40px;
+}
+#ImePotvrdaButton:hover{
+  background-color: rgb(216, 234, 133);
+}
+#ImeInput{
+  background-color: rgb(179, 224, 228);
+  color: rgb(51, 52, 51);
+  min-width: 80px;
+  min-height: 30px;
+}
+.TocanOdgovorProzor{
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(81, 255, 0);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+#NetocanOdgovor{
+  background-color: red;
+}
+#pitanja{
+  justify-content: left;
+  align-items: left;
+  border: 3px solid rgb(51, 52, 51);
+  border-radius: 50px;
+  background-color: rgb(179, 224, 228);
+  color: rgb(51, 52, 51);
+  width: 600px;
+}
+#Kraj{
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgb(51, 52, 51);
+  border-radius: 50px;
+  background-color: rgb(179, 224, 228);
+  color: rgb(51, 52, 51);
+  width: 500px;
+}
+#buttonNova{
+  width: 80px;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#buttonNova:hover{
+  background-color: rgb(0, 91, 166);
+}
+.StartGameIzbori{
+  background-color: rgb(230, 239, 190);
+  min-width: 100px;
+  min-height: 30px;
+  border: 3px solid black;
+  border-radius: 20px;
+}
+.StartGameIzbori:hover{
+  background-color: rgb(216, 234, 133);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */

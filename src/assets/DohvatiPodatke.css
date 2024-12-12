@@ -1,0 +1,14 @@
+
+#startgamebutton{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 239, 190);
+    color: rgb(30, 100, 0);
+    font-size: larger;
+    min-width: 80px;
+    min-height: 40px;
+    margin: 20px 0px;
+}
+#startgamebutton:hover{
+    background-color: rgb(216, 234, 133);
+}

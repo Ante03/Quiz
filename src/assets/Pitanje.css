@@ -1,0 +1,12 @@
+.buttonPitanje{
+    min-width: 60px;
+    min-height: 30px;
+    margin-left: 5px;
+    background-color: rgb(230, 239, 190);
+    border: 3px solid black;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.buttonPitanje:hover{
+    background-color: rgb(216, 234, 133);
+}
